@@ -1,0 +1,638 @@
+
+/* FONTS: 
+
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans', sans-serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box; /* Asegura que todo borde y relleno se incluye en el ancho y alto de los elementos */
+}
+
+.contenedor{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    
+}
+
+.fila{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;    
+    display: table; 
+    margin-top: 10px;  
+} 
+
+[class*="col-"]{
+    padding: 0.5em;
+    float: left;
+    text-align: center;
+    border: solid 4px gray; */
+}
+
+/* SECTION Sección 1: Header */
+
+header div a img{
+    max-width: 150px;
+    max-height: 150px;
+    
+    cursor: pointer;
+}
+
+#nav-bar{
+    margin-top: 10px;
+    float: right;
+}
+
+.collapsible-menu input{
+    display: none;
+}
+
+#nav-bar ul li a{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: center;
+}
+
+#nav-bar ul li a:hover{
+    color: #00F3BB;
+}
+
+#nav-bar ul li a:active{
+    color: rgba(6,10,36,0.56);
+}
+
+/* SECTION Sección 2: Título y explicación */
+
+#intro div #intro-title{
+    margin-top: 60px;
+}
+
+#intro div h1{
+    float: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin-left: 10%;
+}
+
+#intro div h1 span{
+    text-decoration: line-through;
+}
+
+#intro #intro-paragraph{
+    margin-left: 12px;
+    
+}
+
+#intro #intro-paragraph p{
+    font-family: 'IBM Plex Mono-medium', monospace;
+    float: left;
+    margin-left: 10%;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: justify;
+}
+
+#intro #intro-button{
+    margin-top: 50px;
+}
+
+#intro #intro-button button{
+    font-family: "IBMPlexMono-Medium", monospace;
+    background: #00F3BB;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    width: 226px;
+    height: 56px;
+    float: left;
+    margin-left: 10%;
+}
+
+#intro #intro-button button:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+/* SECTION Sección 3: Gradiente y episodios de podcast */
+
+#episodes #blue-background{
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    height: 1042.6px;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 82%, 0% 96%);
+    padding-bottom: 250px;
+}
+
+#episodes div h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 42px;
+    z-index: 3;
+    position: relative;
+    margin-top: 136px;
+    font-size: 36px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+/* FLEXBOX */
+
+.flex-row_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    flex: 100%;
+    flex-direction: column;
+}
+
+#episodes #embed1, #embed2, #embed3, #embed4{
+    width: 500px;
+    height: 198.63px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#episodes #embed1_, #embed2_, #embed3_, #embed4_{
+    border-radius: 5px;
+}
+
+/*SECTION Sección 4: "De dónde venimos" */
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px black;
+    position: relative;
+    bottom: 300px;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+section > div{       
+    border: solid 4px crimson;
+    margin-left: 5em;
+}
+
+#women-coding{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#women-coding img{
+    max-width: 457.6px;
+    max-height: 660px;
+}
+
+#section-title{
+    margin-bottom: 50px;
+    margin-right: 100px;
+    height: 300px;
+}
+
+#section-title h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+    color: #060A24;
+    letter-spacing: 0;
+}
+
+#section-title p{
+    margin-top: 1em;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: justify;
+}
+
+article{
+    position: relative;
+    bottom: 250px;
+}
+
+article h2{
+    margin: 30px;
+}
+
+
+
+/* ANCHOR PANTALLA DE ESCRITORIO, LARGE (lg)*/
+
+@media(min-width:1200px){
+
+    .col-lg-12{                
+        width: 100%;
+    }
+
+    .col-lg-11{
+        width: 91.6666%;
+    }
+
+    .col-lg-10{
+        width: 83.3333%;
+    }
+
+    .col-lg-9{
+        width: 75%;
+    }
+
+    .col-lg-8{
+        width: 66.66666%;
+    }
+
+    .col-lg-7{
+        width: 58.33333%;
+    }
+
+    .col-lg-6{
+        width: 50%;
+    }
+
+    .col-lg-5{
+        width: 41.666%;
+    }
+
+    .col-lg-4{
+        width: 33.3333333%;
+    }
+
+    .col-lg-3{
+        width: 25%;
+    }
+
+    .col-lg-2{
+        width: 16.6666666%;
+    }
+
+    .col-lg-1{
+        width: 8.3333333%;
+  }
+    .col-lg-0{
+        display: none;
+    }
+
+    #intro #intro-paragraph span{
+        display: block;
+    }
+
+    #episodes #embed1_, #embed2_, #embed3_, #embed4_{
+        display: none;
+    }
+}
+
+/* ANCHOR PANTALLA DE ESCRITORIO, MEDIUM (md)*/
+
+@media(max-width:1199px) and (min-width: 992px){
+ 
+    .col-md-12{                
+        width: 100%;
+    }
+
+    .col-md-11{
+        width: 91.6666%;
+    }
+
+    .col-md-10{
+        width: 83.3333%;
+    }
+
+    .col-md-9{
+        width: 75%;
+    }
+
+    .col-md-8{
+        width: 66.66666%;
+    }
+
+    .col-md-7{
+        width: 58.33333%;
+    }
+
+    .col-md-6{
+        width: 50%;
+    } 
+
+    .col-md-5{
+        width: 41.666%;
+    }
+
+    .col-md-4{
+        width: 33.3333%;
+    }
+
+    .col-md-3{
+        width: 25%;
+    }
+
+    .col-md-2{
+        width: 16.66666%;
+    }
+
+    .col-md-1{
+        width: 8.33333%;
+    }
+
+    .col-md-0{
+        display: none;
+    }
+
+    #intro #intro-paragraph span{
+        display: block;
+    }
+
+    #episodes #embed1, #embed2, #embed3, #embed4{
+        width: 430px;
+        height: 170.82px;
+    }
+
+    #episodes #embed1_, #embed2_, #embed3_, #embed4_{
+        display: none;
+    }
+}
+
+/* ANCHOR PANTALLA DE TABLET, SMALL (sm)*/
+
+@media(max-width:991px) and (min-width: 768px){
+
+    .col-sm-12{                
+        width: 100%;
+    }
+
+    .col-sm-11{
+        width: 91.6666%;
+    }
+
+    .col-sm-10{
+        width: 83.3333%;
+    }
+
+    .col-sm-9{
+        width: 75%;
+    }
+
+    .col-sm-8{
+        width: 66.66666%;
+    }
+
+    .col-sm-7{
+        width: 58.33333%;
+    }
+
+    .col-sm-6{
+        width: 50%;
+    }
+
+    .col-sm-5{
+        width: 41.666%;
+    }
+
+    .col-sm-4{
+        width: 33.3333%;
+    }
+
+    .col-sm-3{
+        width: 25%;
+     float: left;
+    }
+
+    .col-sm-2{
+        width: 16.66666%;
+    }
+
+    .col-sm-1{
+        width: 8.33333%;
+    }
+
+    .col-sm-0{
+        display: none;
+    }
+
+    #intro #intro-paragraph span{
+        display: block;
+    }
+
+    div #episodes #embed1, #embed2, #embed3, #embed4{
+        width: 350px;
+        height: 139.04px;
+        margin: 10px;
+    }
+
+    div #episodes #embed1_, #embed2_, #embed3_, #embed4_{
+        display: none;
+    }
+
+    /* SECTION Sección 4: "De dónde venimos" */
+
+    section{
+        bottom: 450px;
+    }
+}  
+
+/* ANCHOR  PANTALLA DE CELULAR, EXTRA SMALL (xs)*/
+
+@media(max-width:767px){
+
+    .col-xs-12{                
+        width: 100%;
+    }
+
+    .col-xs-11{
+        width: 91.6666%;
+   }
+
+    .col-xs-10{
+        width: 83.3333%;
+    }
+
+    .col-xs-9{
+        width: 75%;
+    }
+
+    .col-xs-8{
+        width: 66.66666%;
+    }
+
+    .col-xs-7{
+        width: 58.33333%;
+    }
+
+    .col-xs-6{
+        width: 50%;
+    }
+
+    .col-xs-5{
+        width: 41.666%;
+    }
+
+    .col-xs-4{
+        width: 33.3333%;
+    }
+
+    .col-xs-3{
+        width: 25%;
+        float: left;
+    }
+
+    .col-xs-2{
+        width: 16.66666%;
+    }
+
+    .col-xs-1{
+        width: 8.33333%;
+    }
+
+    .col-xs-0{
+        display: none;
+    }
+
+    .col-0{
+        display: none;
+    }
+
+    /*SECTION Sección 1*/
+
+    div #nav-bar{
+        background: #0000EC;
+        margin-top: 5px;
+        width: 100%;
+        /*margin-top: 10px;
+        float: right; */
+        display: none;
+        overflow: hidden;
+    }
+
+    div #nav-bar ul li{
+        text-align: left;
+    }
+
+    div #nav-bar ul li a{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 28px;
+        padding: 16px;
+    }
+
+    .collapsible-menu label img{
+        position: relative;
+        left: 40%;
+        text-align: center;   
+        padding-right: 10px;    
+        margin-bottom: 5px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    header input#menu{
+        display: none;
+    }
+    
+    #menu:checked ~ #nav-bar{
+        display: block;
+    }
+
+    /* SECTION Sección 2*/
+
+    #intro div h1{
+        margin-left: 16px;
+    }
+
+    #intro #intro-paragraph p{
+        margin-left: 1em;
+    }
+
+    #intro #intro-paragraph{
+        width: 85%;
+    }
+
+    #intro #intro-button button{
+        margin: 0px;
+        float: none;
+        width: 288px;
+        height: 48px;
+    }
+
+    /* SECTION Sección 3: Episodios */
+
+    div #episodes #blue-background{
+        clip-path: polygon(0% 3%, 100% 0%, 100% 85%, 0% 90%);
+        height: auto; /* Padding bottom*/
+        margin-top: 12px;
+        padding-bottom: 300px;
+    }
+
+    div #episodes div h1{
+        margin-left: 16px;
+        margin-top: 50px;
+    }
+
+    div #episodes #embed1, #embed2, #embed3, #embed4{
+        display: none;
+    }
+
+    #episodes #embed1_, #embed2_, #embed3_, #embed4_{
+        margin: 2px;
+        width: 278px;
+        height: 209.9px;
+    }
+
+    /* SECTION Sección 4: "De dónde venimos" */
+
+    section{
+        flex-wrap: wrap;
+        bottom: 260px;
+    }
+
+    #section-title{
+        margin: 30px;
+    }
+
+    section > div{       
+        margin: 0;
+    }
+}
+
+
+
+
+/*Breakpoint único para display del subtítulo*/
+
+@media(max-width: 475px){
+    
+    #intro div h1 text{
+        display: block;
+    }
+}
+
