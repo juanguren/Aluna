@@ -277,6 +277,18 @@ summary h2{
     margin: 30px;
 }
 
+summary .summary-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: solid 4px green;
+    text-align: center;
+    grid-row-gap: 1em;
+}
+
+summary > div h4{
+    border: solid 2px silver;
+}
+
 
 
 /* ANCHOR PANTALLA DE ESCRITORIO, LARGE (lg)*/
