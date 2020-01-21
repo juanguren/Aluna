@@ -266,6 +266,17 @@ article img{
     height: 100%;
 }
 
+/* SECTION Sección 6: Temáticas */
+
+summary{
+    position: relative;
+    bottom: 230px;
+}
+
+summary h2{    
+    margin: 30px;
+}
+
 
 
 /* ANCHOR PANTALLA DE ESCRITORIO, LARGE (lg)*/
