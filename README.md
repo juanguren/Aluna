@@ -1,6 +1,6 @@
 # Aluna - Podcast Web
 
-<h3>Aluna is a web, responsive one-pager that shares some cool Spotify playlists. Showcasing skills in the following elements:</h3>
+<h3>Aluna is a web, responsive one-pager that shares some cool Spotify playlists. Showcasing skills in the following:</h3>
 
 <h4>Technologies</h4>
 <ul>
