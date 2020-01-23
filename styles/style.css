@@ -81,7 +81,7 @@ header div a img{
 #intro div h1{
     float: left;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 36px;
+    font-size: 48px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 42px;
@@ -243,7 +243,8 @@ article{
 
 article h2{
     font-family: 'IBM Plex Sans', sans-serif;
-    margin: 30px;
+    margin-left: 10%;
+    padding-bottom: 40px;
     font-size: 40px;
     color: #060A24;
     letter-spacing: 0;
@@ -273,8 +274,13 @@ summary{
     bottom: 230px;
 }
 
-summary h2{    
-    margin: 30px;
+summary h2{   
+    font-family: 'IBM Plex Sans', sans-serif; 
+    margin-left: 10%;
+    padding: 40px;
+    font-size: 40px;
+    color: #060A24;
+    letter-spacing: 0;
 }
 
 summary .summary-grid{
@@ -283,10 +289,16 @@ summary .summary-grid{
     border: solid 4px green;
     text-align: center;
     grid-row-gap: 1em;
+    margin: 0px 15%;
 }
 
 summary > div h4{
     border: solid 2px silver;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
 }
 
 
@@ -423,6 +435,10 @@ summary > div h4{
     #episodes #embed1_, #embed2_, #embed3_, #embed4_{
         display: none;
     }
+
+    summary .summary-grid{
+        margin: 0px 10%;
+    }
 }
 
 /* ANCHOR PANTALLA DE TABLET, SMALL (sm)*/
@@ -520,6 +536,17 @@ summary > div h4{
 
     article{
         bottom: 400px;
+    }
+
+    /* SECTION Sección 6: Tenáticas */
+
+    summary{
+        position: relative;
+        bottom: 370px;
+    }
+
+    summary .summary-grid{
+        margin: 0px 5%;
     }
 }  
 
