@@ -130,6 +130,7 @@ header div a img{
 
 #intro #intro-button button:hover{
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #FFFFFF;
 }
 
 /* SECTION Sección 3: Gradiente y episodios de podcast */
@@ -272,6 +273,7 @@ article img{
 summary{
     position: relative;
     bottom: 230px;
+    border: solid 4px crimson;
 }
 
 summary h2{   
@@ -301,7 +303,55 @@ summary > div h4{
     text-align: center;
 }
 
+/* SECTION Sección 7: Call to Action */
 
+.call-to-action{
+    position: relative;
+    bottom: 200px;
+}
+
+.cta-background{
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    height: auto;
+    clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
+    padding-bottom: 8em;
+}
+
+.cta-grid{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    text-align: center;
+    row-gap: 3em;
+    position: relative;
+    top: 4em;
+}
+
+.cta-grid h2{
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 42px;
+}
+
+.cta-grid button{
+    font-family: "IBMPlexMono-Medium", monospace;
+    font-size: 16px;
+    color: #060A24;
+    background: #00F3BB;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    padding: 15px 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-grid button:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #FFFFFF;
+}
 
 /* ANCHOR PANTALLA DE ESCRITORIO, LARGE (lg)*/
 
@@ -364,6 +414,16 @@ summary > div h4{
 
     #episodes #embed1_, #embed2_, #embed3_, #embed4_{
         display: none;
+    }
+
+    /* SECTION Sección 7: Call to Action */
+
+    .cta-background{
+        padding-bottom: 14em;
+    }
+    
+    .cta-grid{
+        top: 7em;
     }
 }
 
@@ -436,8 +496,20 @@ summary > div h4{
         display: none;
     }
 
+    /* SECTION Sección 6: Temáticas */
+
     summary .summary-grid{
         margin: 0px 10%;
+    }
+
+    /* SECTION Sección 7: Call to Action */
+
+    .cta-background{
+        padding-bottom: 14em;
+    }
+    
+    .cta-grid{
+        top: 7em;
     }
 }
 
@@ -538,7 +610,7 @@ summary > div h4{
         bottom: 400px;
     }
 
-    /* SECTION Sección 6: Tenáticas */
+    /* SECTION Sección 6: Temáticas */
 
     summary{
         position: relative;
@@ -547,6 +619,13 @@ summary > div h4{
 
     summary .summary-grid{
         margin: 0px 5%;
+    }
+
+    /* SECTION Sección 7: Call to Action */
+
+    .call-to-action{
+        position: relative;
+        bottom: 330px;
     }
 }  
 
