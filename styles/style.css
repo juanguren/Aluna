@@ -353,6 +353,13 @@ summary > div h4{
     color: #FFFFFF;
 }
 
+/* SECTION Sección 8: Footer */
+
+footer{
+    position: relative;
+    bottom: 150px;
+}
+
 /* ANCHOR PANTALLA DE ESCRITORIO, LARGE (lg)*/
 
 @media(min-width:1200px){
@@ -805,7 +812,21 @@ summary > div h4{
         flex: 100%;
     }
 
-}
+    /* SECTION Sección 8: Footer */
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer-column{
+        display: flex;
+        flex-direction: column;
+    }
+
+    }
 
 
 
