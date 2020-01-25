@@ -358,6 +358,28 @@ summary > div h4{
 footer{
     position: relative;
     bottom: 150px;
+    display: flex;
+}
+
+.footer-column{
+    
+}
+
+.footer-column text{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.footer-column a{
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin: 0em 1em;
+    cursor: pointer;
 }
 
 /* ANCHOR PANTALLA DE ESCRITORIO, LARGE (lg)*/
@@ -815,15 +837,17 @@ footer{
     /* SECTION Sección 8: Footer */
 
     footer{
-        display: flex;
         flex-direction: column;
         text-align: center;
         justify-content: center;
     }
 
     .footer-column{
-        display: flex;
-        flex-direction: column;
+        margin: 1em;
+    }
+
+    .footer-column a{
+        
     }
 
     }
