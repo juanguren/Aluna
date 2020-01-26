@@ -285,15 +285,6 @@ summary h2{
     letter-spacing: 0;
 }
 
-summary .summary-grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border: solid 4px green;
-    text-align: center;
-    grid-row-gap: 1em;
-    margin: 0px 15%;
-}
-
 summary > div h4{
     border: solid 2px silver;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -301,6 +292,10 @@ summary > div h4{
     color: #060A24;
     letter-spacing: 0;
     text-align: center;
+}
+
+.summary-grid h4{
+    margin: 1em;
 }
 
 /* SECTION Sección 7: Call to Action */
@@ -445,6 +440,17 @@ footer{
         display: none;
     }
 
+    /* SECTION Sección 6: Temáticas */
+
+    .summary-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: solid 4px green;
+        text-align: center;
+        grid-row-gap: 1em;
+        margin: 0px 15%;
+    }
+
     /* SECTION Sección 7: Call to Action */
 
     .cta-background{
@@ -536,7 +542,12 @@ footer{
 
     /* SECTION Sección 6: Temáticas */
 
-    summary .summary-grid{
+    .summary-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: solid 4px green;
+        text-align: center;
+        grid-row-gap: 1em;
         margin: 0px 10%;
     }
 
@@ -664,7 +675,12 @@ footer{
         bottom: 370px;
     }
 
-    summary .summary-grid{
+    .summary-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: solid 4px green;
+        text-align: center;
+        grid-row-gap: 1em;
         margin: 0px 5%;
     }
 
@@ -859,6 +875,15 @@ footer{
 
     article img{
         flex: 100%;
+    }
+
+    .summary-grid{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        border: solid 4px green;
+        text-align: center;
+        grid-row-gap: 1em;
+        margin: 0px 15%;
     }
 
     /* SECTION Sección 8: Footer */
