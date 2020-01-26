@@ -454,6 +454,15 @@ footer{
     .cta-grid{
         top: 7em;
     }
+
+    /* SECTION Sección 8: Footer */
+
+    footer{
+        margin: 5em;
+        position: relative;
+        bottom: 230px;
+        justify-content: space-between;
+    }
 }
 
 /* ANCHOR PANTALLA DE ESCRITORIO, MEDIUM (md)*/
@@ -539,6 +548,15 @@ footer{
     
     .cta-grid{
         top: 7em;
+    }
+
+    /* SECTION Sección 8: Footer */
+
+    footer{
+        margin: 5em;
+        position: relative;
+        bottom: 230px;
+        justify-content: space-between;
     }
 }
 
@@ -655,6 +673,15 @@ footer{
     .call-to-action{
         position: relative;
         bottom: 330px;
+    }
+
+    /* SECTION Sección 8: Footer */
+
+    footer{
+        margin: 5em;
+        position: relative;
+        bottom: 370px;
+        justify-content: space-between;
     }
 }  
 
