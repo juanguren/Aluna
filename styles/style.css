@@ -39,6 +39,14 @@ font-family: 'IBM Plex Sans', sans-serif; */
 
 /* SECTION Sección 1: Header */
 
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
 header div a img{
     max-width: 150px;
     max-height: 150px;
@@ -74,8 +82,12 @@ header div a img{
 
 /* SECTION Sección 2: Título y explicación */
 
+#intro{
+    padding-top: 5em;
+}
+
 #intro div #intro-title{
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 
 #intro div h1{
@@ -771,6 +783,9 @@ footer{
         float: right; */
         display: none;
         overflow: hidden;
+        position: absolute;
+        top: 90%;
+        z-index: 100;
     }
 
     div #nav-bar ul li{
