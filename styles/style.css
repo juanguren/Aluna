@@ -50,7 +50,6 @@ header{
 header div a img{
     max-width: 150px;
     max-height: 150px;
-    
     cursor: pointer;
 }
 
@@ -912,14 +911,7 @@ footer{
         margin: 1em;
     }
 
-    .footer-column a{
-        
-    }
-
 }
-
-
-
 
 /*Breakpoint único para display del subtítulo*/
 
