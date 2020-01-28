@@ -18,17 +18,17 @@ font-family: 'IBM Plex Sans', sans-serif; */
     margin: auto;
     width: 100%;
     height: auto;
+    
 }
 
 .fila{
-    position: relative;
     margin: auto;
     width: 100%;
     height: auto;
     clear: both;    
     display: table; 
     margin-top: 10px;  
-}
+} 
 
 [class*="col-"]{
     padding: 0.5em;
@@ -37,50 +37,42 @@ font-family: 'IBM Plex Sans', sans-serif; */
     border: solid 4px gray; */
 }
 
-/* SECTION Logo y Nav */
+/* SECTION Sección 1: Header */
 
-header #logo img{
-    width: 36px;
-    height: 36px;
-    margin-right: 100px;
+header div a img{
+    max-width: 150px;
+    max-height: 150px;
+    
+    cursor: pointer;
 }
 
-div #nav-bar{
-    /*margin-top: 10px;
-    float: right; */
+#nav-bar{
+    margin-top: 10px;
+    float: right;
+}
+
+.collapsible-menu input{
     display: none;
-    overflow: hidden;
 }
 
-div #nav-bar ul li{
-    text-align: left;
-}
-
-div #nav-bar ul li a{
+#nav-bar ul li a{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #060A24;
     letter-spacing: 0;
     line-height: 28px;
-    padding: 16px;
+    text-align: center;
 }
 
-.collapsible-menu label img{
-    float: right;
-    padding-right: 20px;    
-    padding-top: 16px;
+#nav-bar ul li a:hover{
+    color: #00F3BB;
 }
 
-header input#menu{
-    display: none;
+#nav-bar ul li a:active{
+    color: rgba(6,10,36,0.56);
 }
 
-#menu:checked ~ #nav-bar{
-    display: block;
-}
-    
-
-/* ANCHOR PANTALLA DE ESCRITORIO, GRANDE (lg)*/
+  /* ANCHOR PANTALLA DE ESCRITORIO, LARGE (lg)*/
 
 @media(min-width:1200px){
 
@@ -134,9 +126,47 @@ header input#menu{
     .col-lg-0{
         display: none;
     }
+
+    #intro #intro-paragraph span{
+        display: block;
+    }
+
+    #episodes #embed1_, #embed2_, #embed3_, #embed4_{
+        display: none;
+    }
+
+    /* SECTION Sección 6: Temáticas */
+
+    .summary-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: solid 4px green;
+        text-align: center;
+        grid-row-gap: 1em;
+        margin: 0px 15%;
+    }
+
+    /* SECTION Sección 7: Call to Action */
+
+    .cta-background{
+        padding-bottom: 14em;
+    }
+    
+    .cta-grid{
+        top: 7em;
+    }
+
+    /* SECTION Sección 8: Footer */
+
+    footer{
+        margin: 5em;
+        position: relative;
+        bottom: 230px;
+        justify-content: space-between;
+    }
 }
 
-/* ANCHOR PANTALLA DE ESCRITORIO, MEDIANA (md)*/
+/* ANCHOR PANTALLA DE ESCRITORIO, MEDIUM (md)*/
 
 @media(max-width:1199px) and (min-width: 992px){
  
@@ -190,6 +220,49 @@ header input#menu{
 
     .col-md-0{
         display: none;
+    }
+
+    #intro #intro-paragraph span{
+        display: block;
+    }
+
+    #episodes #embed1, #embed2, #embed3, #embed4{
+        width: 430px;
+        height: 170.82px;
+    }
+
+    #episodes #embed1_, #embed2_, #embed3_, #embed4_{
+        display: none;
+    }
+
+    /* SECTION Sección 6: Temáticas */
+
+    .summary-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: solid 4px green;
+        text-align: center;
+        grid-row-gap: 1em;
+        margin: 0px 10%;
+    }
+
+    /* SECTION Sección 7: Call to Action */
+
+    .cta-background{
+        padding-bottom: 14em;
+    }
+    
+    .cta-grid{
+        top: 7em;
+    }
+
+    /* SECTION Sección 8: Footer */
+
+    footer{
+        margin: 5em;
+        position: relative;
+        bottom: 230px;
+        justify-content: space-between;
     }
 }
 
@@ -249,6 +322,78 @@ header input#menu{
     .col-sm-0{
         display: none;
     }
+
+    #intro #intro-paragraph span{
+        display: block;
+    }
+
+    div #episodes #embed1, #embed2, #embed3, #embed4{
+        width: 350px;
+        height: 139.04px;
+        margin: 10px;
+    }
+
+    div #episodes #embed1_, #embed2_, #embed3_, #embed4_{
+        display: none;
+    }
+
+    /* SECTION Sección 4: "De dónde venimos" */
+
+    section{
+        flex-wrap: wrap;
+        bottom: 450px;
+    }
+
+    #section-title{
+        margin: 30px;
+    }
+
+    section > div{       
+        margin: 0;
+    }
+
+    #women-coding img{
+        width: auto;
+        height: 660px;
+    }
+
+    /* SECTION Sección 5: Científicas */
+
+    article{
+        bottom: 400px;
+    }
+
+    /* SECTION Sección 6: Temáticas */
+
+    summary{
+        position: relative;
+        bottom: 370px;
+    }
+
+    .summary-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: solid 4px green;
+        text-align: center;
+        grid-row-gap: 1em;
+        margin: 0px 5%;
+    }
+
+    /* SECTION Sección 7: Call to Action */
+
+    .call-to-action{
+        position: relative;
+        bottom: 330px;
+    }
+
+    /* SECTION Sección 8: Footer */
+
+    footer{
+        margin: 5em;
+        position: relative;
+        bottom: 370px;
+        justify-content: space-between;
+    }
 }  
 
 /* ANCHOR  PANTALLA DE CELULAR, EXTRA SMALL (xs)*/
@@ -293,7 +438,7 @@ header input#menu{
 
     .col-xs-3{
         width: 25%;
-     float: left;
+        float: left;
     }
 
     .col-xs-2{
@@ -308,9 +453,148 @@ header input#menu{
         display: none;
     }
 
+    .col-0{
+        display: none;
+    }
+
+    /*SECTION Sección 1*/
+
     div #nav-bar{
         background: #0000EC;
         margin-top: 5px;
         width: 100%;
+        /*margin-top: 10px;
+        float: right; */
+        display: none;
+        overflow: hidden;
     }
+
+    div #nav-bar ul li{
+        text-align: left;
+    }
+
+    div #nav-bar ul li a{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 28px;
+        padding: 16px;
+    }
+
+    .collapsible-menu label img{
+        position: relative;
+        left: 40%;
+        text-align: center;   
+        padding-right: 10px;    
+        margin-bottom: 5px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    header input#menu{
+        display: none;
+    }
+    
+    #menu:checked ~ #nav-bar{
+        display: block;
+    }
+
+    /* SECTION Sección 2*/
+
+    #intro div h1{
+        margin-left: 16px;
+    }
+
+    #intro #intro-paragraph p{
+        margin-left: 1em;
+    }
+
+    #intro #intro-paragraph{
+        width: 85%;
+    }
+
+    #intro #intro-button button{
+        margin: 0px;
+        float: none;
+        width: 288px;
+        height: 48px;
+    }
+
+    /* SECTION Sección 3: Episodios */
+
+    div #episodes #blue-background{
+        clip-path: polygon(0% 3%, 100% 0%, 100% 85%, 0% 90%);
+        height: auto; /* Padding bottom*/
+        margin-top: 12px;
+        padding-bottom: 300px;
+    }
+
+    div #episodes div h1{
+        margin-left: 16px;
+        margin-top: 50px;
+    }
+
+    div #episodes #embed1, #embed2, #embed3, #embed4{
+        display: none;
+    }
+
+    #episodes #embed1_, #embed2_, #embed3_, #embed4_{
+        margin: 2px;
+        width: 278px;
+        height: 209.9px;
+    }
+
+    /* SECTION Sección 4: "De dónde venimos" */
+
+    section{
+        flex-wrap: wrap;
+        bottom: 260px;
+    }
+
+    #section-title{
+        margin: 30px;
+        height: auto;
+    }
+
+    section > div{       
+        margin: 0;
+    }
+
+    #women-coding img{
+        width: auto;
+        height: 450px;
+    }
+
+    /* SECTION Sección 5: Científicas */
+
+    article img{
+        flex: 100%;
+    }
+
+    .summary-grid{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        border: solid 4px green;
+        text-align: center;
+        grid-row-gap: 1em;
+        margin: 0px 15%;
+    }
+
+    /* SECTION Sección 8: Footer */
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer-column{
+        margin: 1em;
+    }
+
+    .footer-column a{
+        
+    }
+
 }
