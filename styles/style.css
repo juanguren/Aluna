@@ -298,10 +298,15 @@ summary > div h4{
     margin: 1em;
 }
 
+/* NOTE En las secciones 7 y 8 experimento un poco con Atomic CSS. A continuación una clase "global" */
+
+.Pos\(r\){
+    position: relative;
+}
+
 /* SECTION Sección 7: Call to Action */
 
 .call-to-action{
-    position: relative;
     bottom: 200px;
 }
 
@@ -317,7 +322,6 @@ summary > div h4{
     grid-template-rows: repeat(2, 1fr);
     text-align: center;
     row-gap: 3em;
-    position: relative;
     top: 4em;
 }
 
@@ -351,7 +355,6 @@ summary > div h4{
 /* SECTION Sección 8: Footer */
 
 footer{
-    position: relative;
     bottom: 150px;
     display: flex;
 }
