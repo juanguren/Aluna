@@ -18,7 +18,6 @@ font-family: 'IBM Plex Sans', sans-serif; */
     margin: auto;
     width: 100%;
     height: auto;
-    
 }
 
 .fila{
@@ -560,6 +559,10 @@ header div a img{
         margin-bottom: 5px;
         padding-top: 10px;
         cursor: pointer;
+    }
+
+    .collapsible-menu input:checked + label{
+        background-image: url(assets/logo.svg);
     }
 
     header input#menu{
