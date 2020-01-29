@@ -62,7 +62,7 @@ header div a img{
 }
 
 #nav-bar ul li a{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-size: 16px;
     color: #060A24;
     letter-spacing: 0;
@@ -370,7 +370,7 @@ summary > div h4{
 /* SECTION Sección 8: Footer */
 
 footer{
-    bottom: 150px;
+    bottom: 11em;
     display: flex;
 }
 
@@ -679,14 +679,14 @@ footer{
     /* SECTION Sección 5: Científicas */
 
     article{
-        bottom: 400px;
+        bottom: 500px;
     }
 
     /* SECTION Sección 6: Temáticas */
 
     summary{
         position: relative;
-        bottom: 370px;
+        bottom: 450px;
     }
 
     .summary-grid{
@@ -701,7 +701,7 @@ footer{
 
     .call-to-action{
         position: relative;
-        bottom: 330px;
+        bottom: 400px;
     }
 
     /* SECTION Sección 8: Footer */
@@ -709,7 +709,7 @@ footer{
     footer{
         margin: 5em;
         position: relative;
-        bottom: 370px;
+        bottom: 27em;
         justify-content: space-between;
     }
 }  
