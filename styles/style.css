@@ -105,7 +105,7 @@ header div a img{
 #intro #intro-paragraph{
     margin-left: 12px;
     
-}
+} 
 
 #intro #intro-paragraph p{
     font-family: 'IBM Plex Mono-medium', monospace;
@@ -116,6 +116,7 @@ header div a img{
     letter-spacing: 0;
     line-height: 24px;
     text-align: justify;
+    padding-top: 1em;
 }
 
 #intro #intro-button{
@@ -770,7 +771,7 @@ footer{
         display: none;
     }
 
-    /*SECTION Sección 1*/
+    /* SECTION Sección 1: Header */
 
     div #nav-bar{
         background: #0000EC;
@@ -816,14 +817,16 @@ footer{
         display: block;
     }
 
-    /* SECTION Sección 2*/
+    /* SECTION Sección 2: Título y explicación */
 
     #intro div h1{
         margin-left: 16px;
+        text-align: left;
     }
 
     #intro #intro-paragraph p{
         margin-left: 1em;
+        padding-top: 1em;
     }
 
     #intro #intro-paragraph{
