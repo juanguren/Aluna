@@ -98,8 +98,12 @@ header div a img{
     margin-left: 10%;
 }
 
-#intro div h1 span{
+#intro #span-world{
     text-decoration: line-through;
+}
+
+#intro #span-dot{
+    color: #0000EC;
 }
 
 #intro #intro-paragraph{
