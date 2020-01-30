@@ -31,6 +31,7 @@
       <li>Sección 4: Científicas</li>
       <li>Sección 5: Temáticas</li>
       <li>Sección 6: Call to Action</li>
+      * All found with that exact naming through the html index.
     </ul>
   <li>Footer</li>
 </ul>
