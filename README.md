@@ -35,7 +35,6 @@
     </ul>
   <li>Footer</li>
 </ul>
-<br>
 <h4>Screenshot</h4>
 <br>
 <img src="readme-images/aluna1.png" alt="screenshot">
