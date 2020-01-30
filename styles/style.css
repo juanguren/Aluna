@@ -84,10 +84,6 @@ header div a img{
     padding-top: 5em;
 }
 
-#intro div #intro-title{
-    /*margin-top: 60px;*/
-}
-
 #intro div h1{
     float: left;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -108,7 +104,6 @@ header div a img{
 
 #intro #intro-paragraph{
     margin-left: 12px;
-    
 } 
 
 #intro #intro-paragraph p{
@@ -378,7 +373,7 @@ footer{
     display: flex;
 }
 
-.footer-column text{
+.footer-column p{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 14px;
     color: #060A24;
@@ -920,13 +915,3 @@ footer{
     }
 
 }
-
-/*Breakpoint único para display del subtítulo*/
-
-@media(max-width: 475px){
-    
-    #intro div h1 text{
-        display: block;
-    }
-}
-
