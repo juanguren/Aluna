@@ -1,4 +1,4 @@
-# Aluna - Podcast Web
+# Aluna - Web Podcast
 
 <h3>Aluna is a web, responsive one-pager. It shares science content and cosmos-related wisdom, plus some cool Spotify playlists. Showcasing skills in the following:</h3>
 
