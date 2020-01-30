@@ -33,7 +33,6 @@
       <li>Sección 6: Call to Action</li>
     </ul>
   <li>Footer</li>
-  * All found with that exact naming through the html index.
 </ul>
 <br>
 <img src="readme-images/aluna1.png" alt="screenshot">
