@@ -1,4 +1,4 @@
-# Aluna - Podcast Web
+# Aluna - Web Podcast
 
 <h3>Aluna is a web, responsive one-pager. It shares science content and cosmos-related wisdom, plus some cool Spotify playlists. Showcasing skills in the following:</h3>
 
@@ -12,5 +12,6 @@
 <ul>
   <li>Breakpoints</li>
   <li>Flexbox & Grid</li>
-  <li>SASS</li>
 </ul>
+
+<p>* Spanish is its current language. Future iterations will support english as practice using JS</p>
