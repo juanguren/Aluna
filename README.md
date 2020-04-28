@@ -38,8 +38,7 @@
 <h4>Screenshot</h4>
 <br>
 <img src="readme-images/aluna1.png" alt="screenshot">
-<br>
-<h4>Recording</h4>
+<h2>Recording</h2>
 <br>
 <video width="600" height="240" controls>
   <source src="assets/Podcast.mp4" type="video/mp4">
