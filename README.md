@@ -38,4 +38,5 @@
 <h4>Screenshot</h4>
 <br>
 <img src="readme-images/aluna1.png" alt="screenshot">
-
+<br>
+<img src="readme-images/juanguren.github.io_Aluna_.png" alt="screenshot">
