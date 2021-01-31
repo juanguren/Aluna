@@ -6,6 +6,7 @@
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
+  <li>Figma</li>
 </ul>
 
 <h4>Additional</h4>
